@@ -1,0 +1,236 @@
+{
+  "language": {
+    "title": "Choose Your Language",
+    "button": "Continue"
+  },
+  "header": {
+    "dashboard": "Dashboard",
+    "buddies": "Buddies",
+    "discover": "Discover",
+    "maps": "Maps",
+    "hotels": "Hotels",
+    "profile": "Profile",
+    "emergency": "Emergency"
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Log in to continue your journey.",
+    "emailLabel": "Email or Phone",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "loginButton": "Log In",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign Up",
+    "forgotPassword": "Forgot Password?",
+    "error": {
+      "noAccountDevice": "No account found on this device. Please",
+      "noAccountEmail": "No account found with this email/phone.",
+      "createOneLink": "Create one?",
+      "incorrectPassword": "Incorrect password. Please try again."
+    }
+  },
+  "signup": {
+    "title": "Create Your Account",
+    "subtitle": "Join the SoloSafe community.",
+    "hasAccount": "Already have an account?",
+    "loginLink": "Log In",
+    "createAccountButton": "Create Account",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Alex Doe",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone Number",
+      "aadhaar": "Aadhaar (Last 4 digits stored)",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "securityQuestion": "Security Question",
+      "securityAnswer": "Your Answer",
+      "securityAnswerPlaceholder": "Your secret answer"
+    },
+    "securityQuestions": {
+      "pet": "What was the name of your first pet?",
+      "maidenName": "What is your mother's maiden name?",
+      "elementarySchool": "What was the name of your elementary school?",
+      "birthCity": "In what city were you born?",
+      "favoriteBook": "What is your favorite book?"
+    },
+    "error": {
+      "passwordMismatch": "Passwords do not match. Please try again.",
+      "invalidAadhaar": "Please enter a valid 12-digit Aadhaar number."
+    }
+  },
+  "security": {
+    "title": "Security Check",
+    "subtitle": "Welcome back, {{name}}!",
+    "questionLabel": "Security Question",
+    "answerLabel": "Your Answer",
+    "answerPlaceholder": "Your secret answer",
+    "submitButton": "Submit",
+    "forgotAnswer": "Forgot Answer?",
+    "error": {
+      "incorrectAnswer": "Incorrect answer. Please try again."
+    }
+  },
+  "recover": {
+    "title": "Account Recovery",
+    "subtitleStep1": "Verify your identity to proceed.",
+    "subtitleStep2": "Enter the OTP sent to your registered number.",
+    "aadhaarLabel": "Last 4 Digits of Aadhaar",
+    "sendOtpButton": "Send OTP",
+    "otpLabel": "Enter 6-Digit OTP",
+    "verifyButton": "Verify & Log In",
+    "backToLogin": "Back to Login",
+    "error": {
+      "aadhaarMismatch": "Aadhaar last 4 digits do not match our records.",
+      "incompleteOtp": "Please enter the full 6-digit OTP."
+    }
+  },
+  "dashboard": {
+    "title": "Plan Your Next Solo Adventure",
+    "subtitle": "Select a season and your primary interest, and let our AI craft the perfect journey for you.",
+    "season": "Season",
+    "interest": "Interest",
+    "generateButton": "Generate Ideas",
+    "generating": "Generating...",
+    "attractions": "Key Attractions:",
+    "safetyTip": "Safety Tip:",
+    "seasons": {
+      "winter": "Winter",
+      "spring": "Spring",
+      "summer": "Summer",
+      "autumn": "Autumn"
+    },
+    "interests": {
+      "adventure": "Adventure",
+      "relaxation": "Relaxation",
+      "culture": "Culture",
+      "food": "Food",
+      "history": "History"
+    },
+    "error": {
+      "noResults": "Couldn't generate recommendations. Please try a different combination.",
+      "generic": "An error occurred. Please try again later."
+    }
+  },
+  "buddies": {
+    "title": "Find Your Travel Tribe",
+    "subtitle": "Connect with fellow solo travelers who share your passions and destinations.",
+    "searchPlaceholder": "Search by name, destination, or interest...",
+    "filterGender": "Filter by gender",
+    "destination": "Destination",
+    "dates": "Dates",
+    "connect": "Connect",
+    "noResults": "No travelers found matching your search.",
+    "genders": {
+      "all": "All Genders",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "discover": {
+    "title": "Discover Hidden Gems",
+    "subtitle": "Explore off-the-beaten-path locations, rated and reviewed by travelers like you.",
+    "addGemButton": "Found a Gem? Add It!",
+    "cancel": "Cancel",
+    "submittedBy": "Submitted by",
+    "you": "You",
+    "form": {
+      "namePlaceholder": "Location Name",
+      "ratingPlaceholder": "Rating (1.0 - 5.0)",
+      "reviewPlaceholder": "Your review...",
+      "submitButton": "Submit Location"
+    }
+  },
+  "maps": {
+    "title": "Live Travel Map",
+    "subtitle": "See who's nearby, track destinations, and find your next adventure in real-time.",
+    "searchPlaceholder": "Search locations or buddies...",
+    "yourLocation": "Your Location",
+    "reportButton": "Report Unsafe Spot",
+    "dangerZone": "Danger Zone",
+    "alert": {
+      "title": "Safety Alert",
+      "body": "You are entering a {{level}}-risk area: {{type}}. Please be cautious."
+    }
+  },
+  "hotels": {
+    "title": "Find Your Perfect Stay",
+    "subtitle": "Search and filter nearby hotels to find the best place for your adventure.",
+    "searchPlaceholder": "Search by hotel name...",
+    "bookButton": "Book / More Details",
+    "distanceAway": "{{distance}} km away",
+    "fetchingLocation": "Fetching location...",
+    "locationError": "Could not determine location. Distances cannot be calculated.",
+    "locationNotSupported": "Geolocation is not supported by this browser.",
+    "noResults": "No hotels match your criteria.",
+    "filters": {
+      "allPrices": "All Prices",
+      "allRatings": "All Ratings",
+      "5stars": "5 Stars",
+      "4stars": "4+ Stars",
+      "3stars": "3+ Stars",
+      "distance": "Distance"
+    }
+  },
+  "profile": {
+    "title": "Your Traveler Profile",
+    "subtitle": "Keep your information up to date to get the best matches and recommendations.",
+    "changePicture": "Change Picture",
+    "altProfilePic": "Profile Picture",
+    "saveButton": "Save Profile",
+    "saved": "Saved!",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "e.g., Alex Doe",
+      "age": "Age",
+      "agePlaceholder": "e.g., 28",
+      "home": "Home City",
+      "homePlaceholder": "e.g., Vancouver, CA",
+      "interests": "Interests",
+      "interestsPlaceholder": "e.g., Hiking, Photography, History",
+      "interestsHelp": "Separate interests with a comma.",
+      "language": "Language"
+    }
+  },
+  "emergency": {
+    "idle": {
+      "title": "Emergency Alert System",
+      "body": "If you are in danger or need immediate assistance, press the button below. This feature is designed to connect you with local emergency services. Please use it responsibly.",
+      "activateButton": "ACTIVATE ALERT",
+      "disclaimer": "Disclaimer: This is a simulated feature. In a real emergency, please contact your local authorities directly."
+    },
+    "confirm": {
+      "title": "Confirm Emergency Alert",
+      "body": "This will attempt to contact the nearest emergency services and share your location. Use this feature only if you are in danger.",
+      "cancelButton": "Cancel",
+      "activateButton": "Activate"
+    },
+    "active": {
+      "title": "ALERTING AUTHORITIES IN...",
+      "gettingLocation": "Getting your location...",
+      "cancelButton": "CANCEL"
+    },
+    "sent": {
+      "title": "ALERT SENT",
+      "subtitle": "Your location has been shared with the nearest emergency services.",
+      "instruction": "Stay where you are if it is safe. Help is on the way."
+    },
+    "locationError": "Could not determine location. Alert will be sent without it."
+  },
+  "reportModal": {
+    "title": "Report an Unsafe Spot",
+    "subtitle": "Your report helps keep other travelers safe. Location is based on your current position.",
+    "levelLabel": "Danger Level",
+    "levels": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "e.g., Poor lighting, feels unsafe, etc.",
+    "submitButton": "Submit Report",
+    "cancelButton": "Cancel"
+  }
+}
